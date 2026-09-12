@@ -1,0 +1,5 @@
+---
+interface:
+  display_name: "ReadmeTruth"
+  short_description: "Vérifie chaque instruction importante du README contre le vrai projet."
+  default_prompt: "Analyse ce projet avec ReadmeTruth. Compare le README à la réalité du repo, liste uniquement les contradictions ou informations obsolètes, et ne modifie rien sans demande explicite."
